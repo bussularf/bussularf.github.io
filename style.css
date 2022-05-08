@@ -1,0 +1,163 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+*{
+  margin: 0;
+  padding: 0;
+  /* box-sizing: border-box; */
+  text-decoration: none;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  color: antiquewhite;
+  height: 100%;
+  background-color: #251D3A;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 1.5rem;
+  padding-bottom: 1rem;
+  position: relative;
+}
+
+.header::before {
+  content: '';
+  position: absolute;
+  height: .1rem;
+  width: 100%;
+  bottom: 0;
+  background-color: #6C63FF;
+}
+
+.title {
+  font-size: 3rem;
+  padding-top: 5rem;
+}
+
+.title-2 {
+  font-size: 2rem;
+}
+
+.img-logo{
+  height: 3rem;
+  cursor: pointer;
+}
+
+.menu {
+  display: flex;
+  gap: 1.5rem;
+}
+
+  .menu-iten {
+    font-size: 1.2rem;
+  }
+
+.banner {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 2rem;
+}
+
+.title-port {
+  font-size: 2.2rem;
+  text-align: center;
+  position: relative;
+}
+
+.title-port::before {
+  content: '';
+  position: absolute;
+  height: .3rem;
+  width: 10rem;
+  bottom: 0;
+  border-radius: 8px;
+  background: linear-gradient(45deg, #8e2de2, #4a00e0);
+}
+
+.img-project {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  gap: 2rem;
+}
+
+.card {
+  padding: 1rem;
+  background: linear-gradient(45deg, #8e2de2, #4a00e0);
+  border-radius: 8px;
+  color: antiquewhite;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+
+.about {
+  padding-bottom: 1.5rem;
+}
+
+.title-about {
+  font-size: 2.2rem;
+  text-align: center;
+  position: relative;
+}
+
+.title-about::before {
+  content: '';
+  position: absolute;
+  height: .3rem;
+  width: 12.5rem;
+  bottom: 0;
+  border-radius: 8px;
+  background: linear-gradient(45deg, #8e2de2, #4a00e0);
+}
+
+.card-about {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 3rem;
+  padding-bottom: 4rem;
+  position: relative;
+}
+
+.card-about::before {
+  content: '';
+  position: absolute;
+  height: .1rem;
+  width: 100%;
+  bottom: 0;
+  background-color: #6C63FF;
+}
+
+.text-field {
+  font-size: 1.2rem;
+  padding-top: 2rem;
+  width: 45rem;
+}
+
+.skills {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  gap: 2rem;
+}
+
+.field-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 2rem;
+}
+
+.links h2 {
+  display: inline;
+  padding-right: 1rem;
+  font-size: 2.5rem;
+}
+
+.img-footer {
+  height: 4rem;
+}
+
