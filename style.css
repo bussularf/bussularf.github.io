@@ -1,9 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
 
 *{
   margin: 0;
   padding: 0;
-  /* box-sizing: border-box; */
   text-decoration: none;
 }
 
@@ -34,16 +34,7 @@ body {
   background-color: #6C63FF;
 }
 
-.title {
-  font-size: 3rem;
-  padding-top: 5rem;
-}
-
-.title-2 {
-  font-size: 2rem;
-}
-
-.img-logo{
+.img-logo {
   height: 3rem;
   cursor: pointer;
 }
@@ -53,15 +44,56 @@ body {
   gap: 1.5rem;
 }
 
-  .menu-iten {
-    font-size: 1.2rem;
-    cursor: pointer;
-  }
+.menu-iten {
+  font-size: 1.2rem;
+  cursor: pointer;
+}
 
 .banner {
+  height: 100vh;
   display: flex;
   justify-content: space-between;
-  padding-top: 2rem;
+}
+
+.container {
+  padding-top: 10rem;
+}
+.container p {
+  font-size: 3rem;
+  padding: 0.5rem;
+  font-weight: bold;
+  letter-spacing: 0.1rem;
+  text-align: center;
+  overflow: hidden;
+}
+.container p span.typed-text {
+  font-weight: normal;
+  color: #dd7732;
+}
+.container p span.cursor {
+  display: inline-block;
+  background-color: #ccc;
+  margin-left: 0.1rem;
+  width: 3px;
+  animation: blink 1s infinite;
+}
+.container p span.cursor.typing {
+  animation: none;
+}
+@keyframes blink {
+  0%  { background-color: #ccc; }
+  49% { background-color: #ccc; }
+  50% { background-color: transparent; }
+  99% { background-color: transparent; }
+  100%  { background-color: #ccc; }
+}
+
+.img-banner {
+  padding-top: 4rem;
+}
+
+.project {
+  height: 100vh;
 }
 
 .title-port {
@@ -83,8 +115,7 @@ body {
 .img-project {
   display: flex;
   justify-content: space-between;
-  padding-top: 3rem;
-  padding-bottom: 3rem;
+  padding-top: 7rem;
   gap: 2rem;
 }
 
@@ -97,7 +128,7 @@ body {
 }
 
 .about {
-  padding-bottom: 1.5rem;
+  height: 70vh;
 }
 
 .title-about {
@@ -121,16 +152,6 @@ body {
   justify-content: space-between;
   padding-top: 3rem;
   padding-bottom: 4rem;
-  position: relative;
-}
-
-.card-about::before {
-  content: '';
-  position: absolute;
-  height: .1rem;
-  width: 100%;
-  bottom: 0;
-  background-color: #6C63FF;
 }
 
 .text-field {
@@ -147,18 +168,23 @@ body {
 
 .field-footer {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-  padding-bottom: 2rem;
+  padding-top: 5rem;
+  position: relative;
+}
+.field-footer::before {
+  content: '';
+  position: absolute;
+  height: .1rem;
+  width: 100%;
+  top: 0;
+  background-color: #6C63FF;
 }
 
 .links h2 {
   display: inline;
   padding-right: 1rem;
   font-size: 2.5rem;
-}
-
-.img-footer {
-  height: 4rem;
 }
 
