@@ -128,12 +128,12 @@ body {
 }
 
 .about {
-  height: 70vh;
+  height: 60vh;
 }
 
 .title-about {
   font-size: 2.2rem;
-  text-align: center;
+  text-align: start;
   position: relative;
 }
 
@@ -150,27 +150,30 @@ body {
 .card-about {
   display: flex;
   justify-content: space-between;
-  padding-top: 3rem;
+  padding-top: 1rem;
   padding-bottom: 4rem;
 }
 
 .text-field {
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   padding-top: 2rem;
-  width: 45rem;
+  width: 35rem;
+  letter-spacing: .1em;
 }
 
 .skills {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
   gap: 2rem;
+  padding-bottom: 1.5rem;
+  justify-items: center;
 }
 
-.field-footer {
+.field-footer { 
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-top: 5rem;
+  padding-top: 1.5rem;
   position: relative;
 }
 .field-footer::before {
@@ -182,9 +185,11 @@ body {
   background-color: #6C63FF;
 }
 
-.links h2 {
-  display: inline;
-  padding-right: 1rem;
-  font-size: 2.5rem;
+.links {
+  display: flex;
+  flex-direction: row ;
+  justify-content: space-between;
+  font-size: 2rem;
+  gap: 2rem;
 }
 
