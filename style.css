@@ -20,18 +20,11 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-top: 1.5rem;
-  padding-bottom: 1rem;
-  position: relative;
-}
-
-.header::before {
-  content: '';
-  position: absolute;
-  height: .1rem;
-  width: 100%;
-  bottom: 0;
-  background-color: #6C63FF;
+  padding: 1rem;
+  position: sticky;
+  top: 0;
+  background: rgba(30, 2, 49, 0.1);
+  border-radius: 5px;
 }
 
 .img-logo {
@@ -49,6 +42,11 @@ body {
   cursor: pointer;
 }
 
+.menu a:hover {
+  color: plum;
+  transform: scale(1.05);
+}
+
 .banner {
   height: 100vh;
   display: flex;
@@ -56,7 +54,8 @@ body {
 }
 
 .container {
-  padding-top: 10rem;
+  padding-top: 15rem;
+  width: 50% ;
 }
 .container p {
   font-size: 3rem;
@@ -88,12 +87,9 @@ body {
   100%  { background-color: #ccc; }
 }
 
-.img-banner {
+.img-banner img {
+  height: 35rem;
   padding-top: 4rem;
-}
-
-.project {
-  height: 100vh;
 }
 
 .title-port {
@@ -112,11 +108,15 @@ body {
   background: linear-gradient(45deg, #8e2de2, #4a00e0);
 }
 
+.project {
+  padding-bottom: 4rem;
+}
+
 .img-project {
   display: flex;
   justify-content: space-between;
-  padding-top: 7rem;
-  gap: 2rem;
+  padding-top: 4rem;
+  gap: 1rem;
 }
 
 .card {
@@ -125,6 +125,12 @@ body {
   border-radius: 8px;
   color: antiquewhite;
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  width: 20rem;
+}
+
+.card img {
+  width: 20rem;
+  height: 15rem;
 }
 
 .about {
@@ -193,3 +199,19 @@ body {
   gap: 2rem;
 }
 
+
+@media screen and (max-width: 870px) {
+  .container {
+    width: 18rem;
+    font-size: 2rem;
+  }
+  .container p {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .img-banner img {
+    padding-top: 10rem;
+    height: 17rem;
+  }
+}

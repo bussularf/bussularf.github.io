@@ -23,10 +23,10 @@
   <main>
     <section class="banner">
       <div class="container">
-        <p>Olá, eu sou <span class="typed-text"></span><span class="cursor">&nbsp;</span></p>
+        <p>Olá, eu sou <br><span class="typed-text"></span><span class="cursor">&nbsp;</span></p>
       </div>
       <div class="img-banner">
-        <img src="images/remotely.svg" alt="Work" style="height: 35rem;">
+        <img src="images/remotely.svg" alt="Work">
       </div>
     </section>
 
@@ -34,12 +34,31 @@
       <h2 class="title-port">Portifólio</h2>
       <div class="img-project">
         <div class="card">
-          <img src="images/buddieget.gif" alt="Buddieget - projeto" style="height: 18rem;">
-          <h3>Buddieget</h3> <p>encontre e  ofereça serviços. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus libero accusantium blanditiis iure autem natus architecto magni neque molestias totam, eius nihil optio quidem nisi illo omnis consequuntur corrupti dolore?</p>
+          <img src="images/buddieget.gif" alt="Buddieget - projeto">
+          <h3>Buddieget</h3> <p>encontre e  ofereça serviços.</p>
         </div>
         <div class="card">
-          <img src="images/sos_donations.gif" alt="SoS Donations - projeto" style="height: 18rem;">
-          <h3>SOS Donations</h3> <p>Encontre instiruiçoes confiáveis para ealizar doações. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem eaque sunt molestias sit vero. Sed quisquam, eveniet vel voluptatibus maiores qui aliquam sit eligendi, nihil doloremque totam? Nobis, iste quod.</p>
+          <img src="images/sos_donations.gif" alt="SoS Donations - projeto">
+          <h3>SOS Donations</h3> <p>Encontre instiruiçoes confiáveis para ealizar doações.</p>
+        </div>
+        <div class="card">
+          <img src="images/form-login.png" alt="SoS Donations - projeto">
+          <h3>Formulário de Login</h3> <p>Formulário de login responsivo.</p>
+        </div>
+        
+      </div>
+      <div class="img-project">
+        <div class="card">
+          <img src="images/ballebot.png" alt="Buddieget - projeto">
+          <h3>Ballebot</h3> <p>Landing page responsiva.</p>
+        </div>
+        <div class="card">
+          <img src="images/danvo.png" alt="Buddieget - projeto">
+          <h3>Danvo</h3> <p>Landing page responsiva com Light/Dark Mode.</p>
+        </div>
+        <div class="card">
+          <img src="images/form.png" alt="SoS Donations - projeto">
+          <h3>Formulário de Cadastro</h3> <p>Formulário de cadastro responsivo.</p>
         </div>
       </div>
     </section>
@@ -82,7 +101,7 @@
     const typedTextSpan = document.querySelector(".typed-text");
     const cursorSpan = document.querySelector(".cursor");
 
-    const textArray = ["a Fernanda", "desenvolvedora de Software"];
+    const textArray = ["a Fernanda", "desenvolvedora"];
     const typingDelay = 200;
     const erasingDelay = 100;
     const newTextDelay = 2000; // Delay between current and next text
