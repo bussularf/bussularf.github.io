@@ -23,8 +23,7 @@ body {
   padding: 1rem;
   position: sticky;
   top: 0;
-  background: rgba(30, 2, 49, 0.1);
-  border-radius: 5px;
+  height: 8vh;
 }
 
 .img-logo {
@@ -253,7 +252,7 @@ body {
   }
 }
 
-@media screen and (max-width: 470px) {
+@media screen and (max-width: 740px) {
   .container {
     padding-top: 2rem;
   }
