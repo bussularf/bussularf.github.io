@@ -60,21 +60,18 @@ body {
 }
 
 .banner {
-  height: 100vh;
+  height: 90vh;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
-.container {
-  padding-top: 15rem;
-  width: 50% ;
-}
 .container p {
   font-size: 3rem;
   padding: 0.5rem;
   font-weight: bold;
   letter-spacing: 0.1rem;
-  text-align: center;
+
   overflow: hidden;
 }
 .container p span.typed-text {
@@ -121,7 +118,7 @@ body {
 }
 
 .project {
-  padding-bottom: 4rem;
+  padding-bottom: 4%  ;
 }
 
 .img-project {
@@ -254,20 +251,23 @@ body {
 
 @media screen and (max-width: 740px) {
   .container {
-    padding-top: 2rem;
+    height: 15rem;
   }
 
   .banner {
-    height: 30vh;
+    display: grid;
+    justify-content: center;
+    height: 80vh;
   }
 
-  .img-banner {
-    display: none;
+  .img-banner img {
+    height: 5rem
   }
 
   .img-project {
     display: grid;
     padding-top: 2rem;
+    justify-content: center;
   }
 
   .card-about img {
