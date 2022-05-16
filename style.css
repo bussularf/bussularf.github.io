@@ -129,8 +129,7 @@ body {
 }
 
 .card img {
-  width: 20rem;
-  height: 15rem;
+  width: 100%;
 }
 
 .about {
@@ -213,5 +212,38 @@ body {
   .img-banner img {
     padding-top: 10rem;
     height: 17rem;
+  }
+}
+
+@media screen and (max-width: 470px) {
+  .container {
+    padding-top: 2rem;
+  }
+
+  .banner {
+    height: 30vh;
+  }
+
+  .img-banner {
+    display: none;
+  }
+
+  .img-project {
+    display: grid;
+    padding-top: 2rem;
+  }
+
+  .card-about img {
+    display: none;
+  }
+  
+  .text-field {
+    font-size: 1.2rem;
+    text-align: justify;
+  }
+
+  .skills {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
   }
 }
