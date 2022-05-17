@@ -266,6 +266,7 @@ body {
 
   .img-project {
     display: grid;
+    grid-template-columns: auto;
     justify-content: center;
   }
 
