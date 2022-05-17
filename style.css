@@ -121,7 +121,8 @@ body {
 }
 
 .img-project {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
   justify-content: space-between;
   padding-top: 4rem;
   gap: 1rem;
@@ -216,7 +217,7 @@ body {
     position: absolute;
     top: 10vh;
     width: 50vh;
-    height: 90vh;
+    height: 60vh;
     background: #251D3A;
     flex-direction: column;
     align-items: center;
@@ -245,6 +246,8 @@ body {
   .img-banner img {
     height: 17rem;
   }
+
+  .title-port {}
 }
 
 @media screen and (max-width: 740px) {
@@ -252,17 +255,13 @@ body {
     position: absolute;
   }
 
-  .container {
-    height: 15rem;
-  }
-
   .banner {
     display: grid;
-    height: 80vh;
+    height: 60vh;
   }
 
   .img-banner img {
-    height: 5rem
+    height: 17rem;
   }
 
   .img-project {
