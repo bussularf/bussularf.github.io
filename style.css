@@ -97,8 +97,7 @@ body {
 }
 
 .img-banner img {
-  height: 35rem;
-  padding-top: 4rem;
+  height: 50vh;
 }
 
 .title-port {
@@ -118,7 +117,7 @@ body {
 }
 
 .project {
-  padding-bottom: 4%  ;
+  padding-bottom: 4%;
 }
 
 .img-project {
@@ -256,7 +255,6 @@ body {
 
   .banner {
     display: grid;
-    justify-content: center;
     height: 80vh;
   }
 
@@ -266,7 +264,6 @@ body {
 
   .img-project {
     display: grid;
-    padding-top: 2rem;
     justify-content: center;
   }
 
