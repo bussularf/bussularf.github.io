@@ -93,3 +93,14 @@ function mlCounter() {
     }, 400);
   });
 }
+
+// Portfolio Filter Animation 
+
+let mixer = mixitup(".portfolio-gallery", {
+  selectors: {
+    target: ".prt-card",
+  }, 
+  animation: {
+    duration: 500,
+  },
+});
