@@ -791,6 +791,7 @@ width: 105%;
 .prt-image:hover .prt-icon {
   opacity: 1;
   transform: translateY(0px);
+  transition: .3s var(--i);
 }
 
 .modal {
