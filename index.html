@@ -7,6 +7,7 @@
   <title>Fernanda Portfolio Website</title>
   <script src="https://unpkg.com/scrollreveal"></script>
   <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+  <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -36,6 +37,7 @@
     </nav>
   </header>
   <main>
+    
     <section class="showcase-area">
       <img src="assets/square1.png" class="shape square" alt="">
       <div class="container">
@@ -56,6 +58,7 @@
         </div>
       </div>
     </section>
+
     <section class="about section">
       <img src="assets/triangle.png" class="shape triangle" alt="triangle">
       <div class="container">
@@ -380,6 +383,7 @@
         </div>
       </div>
     </section>
+
     <section class="skills section">
       <div class="container">
         <div class="skills-box">
@@ -445,6 +449,7 @@
         </div>
       </div>
     </section>
+
     <section class="services section">
       <img src="assets/triangle.png" class="shape triangle">
       <div class="container">
@@ -524,6 +529,7 @@
         </div>
       </div>
     </section>
+
     <section class="portfolio section">
       <div class="modal">
         <div class="modal-overlay"></div>
@@ -664,7 +670,84 @@
         </div>
       </div>
     </section>
+
+    <section class="testimonials section">
+      <div class="container">
+        <div class="section-background">
+          <img src="assets/person2.svg" class="person">
+          <img src="assets/circle2.png" class="circle">
+          <img src="assets/square1.png" class="square">
+        </div>
+        <div class="swiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="client">
+                <img src="assets/testi1.png">
+                <div class="client-info">
+                  <h4>Kelly Nunes</h4>
+                  <h5>Executive Officer <a href="#">@ABEnergy</a></h5>
+                </div>
+              </div>
+              <q class="text">
+                Lorem ipsum dolor sit consectetur adipisicing elit. Nisi quam maiores, perferendis asperiores mollitia eius qui reprehenderit deleniti repellendus sit tempore consequatur minima laboriosam, non ad vitae consequuntur accusamus praesentium!
+              </q>
+            </div>
+            <div class="swiper-slide">
+              <div class="client">
+                <img src="assets/testi2.png">
+                <div class="client-info">
+                  <h4>Marcos Lacerda</h4>
+                  <h5>CEO Of <a href="#">@Eco_Focus</a></h5>
+                </div>
+              </div>
+              <q class="text">
+                Lorem ipsum dolor quam maiores, perferendis asperiores mollitia eius qui reprehenderit deleniti repellendus sit tempore consequatur minima laboriosam, non ad vitae consequuntur accusamus praesentium!
+              </q>
+            </div>
+            <div class="swiper-slide">
+              <div class="client">
+                <img src="assets/testi3.png">
+                <div class="client-info">
+                  <h4>Tony Menezes</h4>
+                  <h5>Software Enginner <a href="#">@Epci_Dev</a></h5>
+                </div>
+              </div>
+              <q class="text">
+                Nisi quam maiores, perferendis asperiores mollitia eius qui reprehenderit deleniti repellendus sit tempore consequatur minima laboriosam, non ad vitae consequuntur accusamus praesentium!
+              </q>
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+        <div class="testimonials-title">
+          <h3 class="sub-heading">Testimonials</h3>
+          <h1 class="heading">Hear my happy clients</h1>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact section">
+      <div class="container">
+        <div class="contact-info">
+          <h3 class="sub-heading">Contact me</h3>
+          <h1 class="heading">Let's worrk together</h1>
+          <p class="text">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque, hic voluptatibus. Fugiat commodi fuga quam sapiente accusamus nesciunt corrupti illum necessitatibus quaerat.
+          </p>
+          <a href="mailto:fernandabussular@gmail.com" class="mail">fernandabussular@mail.com <i class="uil uil-arrow-right"></i></a>
+        </div>
+        <form action="index.html" class="contact-form">
+          <h3>Send me a message</h3>
+          <input type="text" class="form-input" placeholder="Seu nome" required>
+          <input type="email" class="form-input" placeholder="Seu email" required>
+          <textarea placeholder="Detalhe seu projeto" class="form-input" required></textarea>
+          <input type="submit" value="Send" class="btn">
+        </form>
+      </div>
+    </section>
+
   </main>
+  <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
   <script src="./javascript/mixitup.min.js"></script>
   <script src="./javascript/app.js"></script>
 </body>
