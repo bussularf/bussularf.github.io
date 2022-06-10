@@ -749,6 +749,7 @@ header.scrolled .logo {
   margin-left: 1.3rem;
   font-family: inherit;
   text-transform: uppercase;
+  transition: .3s color;
 }
 
 .filter-btn.mixitup-control-active {
@@ -780,6 +781,7 @@ header.scrolled .logo {
   display: grid;
   grid-template-rows: 1fr auto;
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  transition: .3s bachground-color;
 }
 
 .prt-image {
@@ -950,6 +952,7 @@ width: 105%;
   background-color: var(--bg-color-2);
   border-radius: 15px;
   padding: 4rem 0 2.5rem;
+  transition: .3s bachground-color;
 }
 
 .swiper-slide {
@@ -972,12 +975,14 @@ width: 105%;
   color: var(--heading-color);
   margin-bottom: .3rem;
   font-size: 1.05rem;
+  transition: .3s color;
 }
 
 .client-info h5 {
   color: var(--text-color);
   font-weight: 500;
   font-size: .8rem;
+  transition: .3s color;
 }
 
 .client-info h5 a {
@@ -1094,6 +1099,7 @@ width: 105%;
   padding: 3.5rem 3rem;
   display: flex;
   flex-direction: column;
+  transition: .3s bachground-color;
 }
 
 .contact-form h3 {
@@ -1102,6 +1108,7 @@ width: 105%;
   font-weight: 500;
   margin-bottom: 1.6rem;
   line-height: .9;
+  transition: .3s color;
 }
 
 .form-input {
@@ -1171,6 +1178,7 @@ textarea.form-input {
   grid-template-columns: 1fr 1fr;
   column-gap: 6rem;
   align-items: center;
+  transition: .3s bachground-color;
 }
 
 .sub-box-heading {
