@@ -1335,7 +1335,7 @@ footer .social-media {
   }
 
   .showcase-area {
-    padding: 100px;
+    padding: 100px 0;
   }
 
   .showcase-area .container {
@@ -1508,7 +1508,7 @@ footer .social-media {
 
   .showcase-image {
     min-height: revert;
-    height: 73vw;
+    height: 100vw;
     max-height: 570px;
     max-width: 450px;
     margin-top: 0px;
