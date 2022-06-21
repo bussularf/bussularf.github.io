@@ -369,6 +369,11 @@ body.open .hamburger .bar:last-child {
   transition: bottom 0.2s, transform .3s .1s;
 }
 
+.thanks {
+  display: flex;
+  justify-content: center;
+}
+
 /* Showcase Srea Styling */
 
 .showcase-area {
