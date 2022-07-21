@@ -229,9 +229,3 @@ links.forEach((link) =>
     document.body.classList.remove("stopScrolling");
   })
 );
-
-// Send form
-
-// send_form.addEventListener("click", function(event) {
-//   event.preventDefault();
-// });
