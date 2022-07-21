@@ -20,6 +20,8 @@ const toggle_btn = document.querySelector(".toggle-btn");
 
 const hamburger = document.querySelector(".hamburger");
 
+const send_form = document.getElementById("btnForm")
+
 window.addEventListener("scroll", () =>  {
   activeLink();
   if (!skillsPlayed) skillsCounter();
@@ -227,3 +229,9 @@ links.forEach((link) =>
     document.body.classList.remove("stopScrolling");
   })
 );
+
+// Send form
+
+// send_form.addEventListener("click", function(event) {
+//   event.preventDefault();
+// });
